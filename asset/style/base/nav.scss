@@ -1,0 +1,19 @@
+.navbar {
+    background-color: $sand_color;
+    i {
+        font-size:35px;
+    }
+    img {
+        height: 40px;
+        object-fit: position;
+    }
+}
+
+.image-in-navbar {
+    margin-left: 4px;
+}
+
+.icon-with-logo {
+    display:flex;
+}
+

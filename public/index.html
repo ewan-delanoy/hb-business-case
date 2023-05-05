@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mon super titre</h1>
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center border-bottom border-dark" id="nave">
+    <div class="container">
+      <div class="icon-with-logo">
+        <a class="nav-link" href="#"><i class="fa-solid fa-circle-user"></i></a>
+        <img class="image-in-navbar" src="../asset/images/sable_chaud.png" width="45" alt="">
+      </div>
+      <!-- <a href="#" class="navbar-brand">
+      </a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ACCUEIL</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">RESERVATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONNEXION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MON COMPTE</a>
+          </li>
+        </ul>
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+          data-target="#collapsingNavbar3" aria-controls="collapsingNavbar3" aria-expanded="false"
+          aria-label="Toggle navigation">
+        </button>
+      </div>
+    </div>
+  </nav>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
