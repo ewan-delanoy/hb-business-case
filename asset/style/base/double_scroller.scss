@@ -1,0 +1,31 @@
+/*
+.timetable-container {
+    position: absolute;
+    margin-top: 30px;
+    width: 1000px;
+    height: calc(100vh - 120px - 30px);
+    background: red;
+    overflow-y: scroll;
+    .timetable-inner-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+      }
+      .timetable-day {
+        width: 350px;
+        height: 1200px;
+        background: green;
+      }
+  } 
+*/
+
+.roaring-lion {
+    width: 200px; 
+    white-space: nowrap; 
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

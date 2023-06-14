@@ -1,0 +1,34 @@
+$color_1: #4c4c4c;
+$font-family_1: 'Open Sans', sans-serif;
+$background-color_1: #0D47A1;
+
+.order-form {
+	.container {
+		color: $color_1;
+		padding: 20px;
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+		max-width: 650px;
+	}
+}
+.order-form-label {
+	margin: 8px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.order-form-input {
+	font-family: $font-family_1;
+	font-size: 14px;
+}
+.form-label {
+	font-family: $font-family_1;
+	font-size: 14px;
+}
+.form-check-label {
+	font-family: $font-family_1;
+	font-size: 14px;
+}
+.btn-submit {
+	&:hover {
+		background-color: $background-color_1 !important;
+	}
+}

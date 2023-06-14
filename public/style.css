@@ -21037,4 +21037,67 @@ readers do not read off random characters that represent icons */
   display: flex;
 }
 
+/*
+.timetable-container {
+    position: absolute;
+    margin-top: 30px;
+    width: 1000px;
+    height: calc(100vh - 120px - 30px);
+    background: red;
+    overflow-y: scroll;
+    .timetable-inner-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+      }
+      .timetable-day {
+        width: 350px;
+        height: 1200px;
+        background: green;
+      }
+  } 
+*/
+.roaring-lion {
+  width: 200px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.order-form .container {
+  color: #4c4c4c;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+}
+
+.order-form-label {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.order-form-input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.form-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.form-check-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.btn-submit:hover {
+  background-color: #0D47A1 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
