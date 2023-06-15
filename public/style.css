@@ -21018,6 +21018,11 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 .navbar {
   background-color: #FFE600;
 }
