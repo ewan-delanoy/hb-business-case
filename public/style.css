@@ -21023,6 +21023,29 @@ readers do not read off random characters that represent icons */
   height: auto;
 }
 
+.outer-container-for-image {
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+  /* Activate scrollbars */
+}
+
+.inner-container-for-image {
+  position: relative;
+  width: 1000px;
+  height: 800px;
+}
+
+.inner-container-for-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ajuster l'image à la taille */
+}
+
 .navbar {
   background-color: #FFE600;
 }
