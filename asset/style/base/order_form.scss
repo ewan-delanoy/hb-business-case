@@ -12,6 +12,7 @@ $background-color_1: #0D47A1;
 }
 .order-form-label {
 	margin: 8px 0 0 0;
+	padding-left:8px;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -31,4 +32,16 @@ $background-color_1: #0D47A1;
 	&:hover {
 		background-color: $background-color_1 !important;
 	}
+}
+
+.container-for-name-and-surname {
+	display: inline-flex;
+}
+
+.form-outline-left {
+	margin-right: 10px;
+  }
+  
+.form-outline-right {
+	margin-left: 10px;
 }

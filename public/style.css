@@ -21105,6 +21105,7 @@ readers do not read off random characters that represent icons */
 
 .order-form-label {
   margin: 8px 0 0 0;
+  padding-left: 8px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -21126,6 +21127,18 @@ readers do not read off random characters that represent icons */
 
 .btn-submit:hover {
   background-color: #0D47A1 !important;
+}
+
+.container-for-name-and-surname {
+  display: inline-flex;
+}
+
+.form-outline-left {
+  margin-right: 10px;
+}
+
+.form-outline-right {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
